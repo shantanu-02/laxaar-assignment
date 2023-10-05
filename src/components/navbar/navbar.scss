@@ -1,0 +1,111 @@
+.navbar{
+    width: 1440px;
+    height: 92px;
+    color: #F87060;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
+    .logo{
+        width: 144px;
+        height: 39px;
+
+        img{
+            background-size: cover;
+        }
+    }
+
+    .profile{
+        width: 462px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .doc{
+            width: 202px;
+            height: 44px;
+            padding: 5px;
+            font-size: 16px;
+            color: white;
+            background-color: #F87060;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .lang{
+            width: 148px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            background-color: #fdf0ef;
+            border-radius: 20px;
+
+            .language{
+                outline: none;
+                border: none;
+                color: #F87060;
+                background-color: transparent;
+            }
+        }
+        
+        .image{
+            width: 52px;
+            height: 52px;
+            cursor: pointer;
+            z-index: 1;
+            position: relative;
+
+            .user-details{
+                width: 196px;
+                height: 162px;
+                position: absolute;
+                top: 64px;
+                right: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+
+                .details{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: gray;
+                }
+            }
+
+            hr{
+                border: 1px solid rgb(221, 221, 221);
+                width: 100%;
+            }
+
+            .signout{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #F87060;
+                color: white;
+                width: 85px;
+                height: 34px;
+                position: absolute;
+                top: 110px;
+                right: 100px;
+                border-radius: 5px;
+                
+            }
+        }
+    }
+
+}

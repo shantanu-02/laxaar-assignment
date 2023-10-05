@@ -1,0 +1,119 @@
+.invoice{
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    height: 975px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    gap: 20px;
+    background-image: url('../../../Images/Vector.png');
+    background-size: contain;
+    background-repeat: round;
+
+    .header{
+        width: 105px;
+        height: 28px;
+        top: 132px;
+        left: 254px;
+        font-size: 24px;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    
+
+    .table{
+
+      .search{
+        padding-top: 20px;
+        margin-bottom: 30px;
+
+         .searchbar{
+        position: absolute;
+        right: 10px;
+        width: 155px;
+        height: 36px;
+        color: #F87060;
+        border-color: #F87060;
+        border-radius: 10px;
+    
+         input::placeholder {
+            color: #F87060;
+          }
+        }
+    }
+
+      background-color: white;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+      .custom-table {
+        border-collapse: separate;
+        border-spacing: 0 30px; /* Increase the gap between rows by adjusting the second value (10px in this example) */
+      }
+      
+      .custom-table tbody tr {
+        border: none; /* Remove row borders */
+      }
+
+        .custom-checkbox .ant-checkbox-wrapper,
+        .custom-checkbox .ant-checkbox-inner {
+            border-radius: 50%;
+            
+            :hover{
+                color: #F87060;
+                border-color: #F87060;
+                cursor: pointer;
+            }
+        }
+        
+        .custom-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+            background-color: #F87060;
+            border-color: #F87060;
+        }
+          
+        .ant-pagination-item a {
+            color: #F87060; /* Set the desired color */
+          }
+          
+          /* Center-align the page numbers */
+          .ant-pagination {
+            align-items: center;
+            text-align: center;
+          }
+
+          .ant-pagination-item-active a {
+            color: white; 
+            background-color: #F87060;
+            border-radius: 10px;
+          }
+
+          .ant-pagination .ant-pagination-item-active{
+            border-color: transparent;
+          }
+
+          .ant-pagination .ant-table-pagination .ant-table-pagination-right{
+            display: flex;
+            justify-content: center;
+          }
+
+          .ant-pagination-item a:focus {
+            outline: none;
+            border: none;
+          }
+
+          :where(.css-dev-only-do-not-override-pr0fja).ant-table-wrapper .ant-table-pagination-right{
+            display: flex;
+            justify-content: center;
+          }
+
+          :where(.css-dev-only-do-not-override-pr0fja).ant-pagination .ant-pagination-prev button
+          , :where(.css-dev-only-do-not-override-pr0fja).ant-pagination .ant-pagination-next button{
+            color: #F87060;
+          }
+          
+    }
+}
+
+
+
